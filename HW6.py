@@ -15,15 +15,14 @@ print(numlist)
 nolist=[]
 
 #4. Remove the median number from the first list and add it to the second list.
-numlist.remove(4)
-print(numlist)
-nolist.append(4)
+mediannumber=numlist.pop(4)
+nolist.append(mediannumber)
+print(nolist)
 
 #5. Remove the first number from the first list and add it to the second list.
 numlist.remove(26)
-print(numlist)
-nolist.append(26)
-
+onenumber=numlist.pop(1)
+nolist.append(onenumber)
 #6. Print both lists.
 print(nolist)
 print(numlist)
