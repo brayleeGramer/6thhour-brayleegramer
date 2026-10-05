@@ -41,8 +41,15 @@ enemycreatures={
        "attackdamage":1314,
     "health":54,
         "weather":"sunny"
-    }
-}
+    }}
+
+enemy12345=input("which enemys damage")
+enemykey=input("which key do you want to change")
+
+
+enemydamage=int(input("integer"))
+
+enemycreatures[enemy12345].update({enemykey:enemydamage})
 
 
 
